@@ -1,6 +1,7 @@
 #Вариант 38. Трекер привычек
 import random
 from habits_data import *
+random.seed(67)
 
 def show_help():
     print("Доступные команды:")
