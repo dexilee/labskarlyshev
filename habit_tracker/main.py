@@ -54,7 +54,7 @@ def find_idx(parts):
 
 def main():
     print("=== Трекер привычек ===")
-    print("Введите одну из команд: help, list, status, motivation, done, skip, exit")
+    print("Введите одну из команд: help, list, status <номер>, motivation, active, today, marks add <имя>, done <номер>, skip <номер>, exit")
     while True:
         cmdidx = input().strip().lower().split()
         if not cmdidx:
