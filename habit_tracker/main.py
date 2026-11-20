@@ -123,7 +123,7 @@ def main():
                 print(f"Для этой команды требуется верный индекс[1-{len(HABITS)}]. Введите его через пробел после команды.")
         else:
             print("Неизвестная команда.")
-            print("Доступные команды: help, list, status, motivation, done, skip, exit")
+            print("Доступные команды: help, list, status <номер>, motivation, active, today, marks add <имя>, done <номер>, skip <номер>, exit")
 
 if __name__ == "__main__":
     main()
